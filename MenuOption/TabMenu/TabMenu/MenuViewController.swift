@@ -109,7 +109,7 @@ class MenuViewController: UIViewController ,UITableViewDataSource, UITableViewDe
     func hideMenu() {
         UIView.animate(withDuration: 0.5,delay: 0.2, options: .curveEaseInOut, animations: { () -> Void in
             self.tableViewHeight.constant = 0
-            self.tableViewOfMenu.layoutIfNeeded()
+            self.view.layoutIfNeeded()
         })
     }
     
@@ -117,7 +117,7 @@ class MenuViewController: UIViewController ,UITableViewDataSource, UITableViewDe
         UIView.animate(withDuration: 0.5,delay: 0.2, options: .curveEaseInOut , animations: { () -> Void in
             let totalHeight = self.tableViewOfMenu.rowHeight * CGFloat(self.tableViewOfMenu.numberOfRows(inSection: 0))
             self.tableViewHeight.constant = totalHeight
-            self.tableViewOfMenu.layoutIfNeeded()
+            self.view.layoutIfNeeded()
         })
     }
 }
