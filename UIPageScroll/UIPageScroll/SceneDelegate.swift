@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  PageScroll
+//  UIPageScroll
 //
-//  Created by Hoàng Loan on 05/01/2023.
+//  Created by Hoàng Loan on 10/01/2023.
 //
 
 import UIKit

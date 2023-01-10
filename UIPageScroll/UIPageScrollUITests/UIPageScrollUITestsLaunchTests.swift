@@ -1,13 +1,13 @@
 //
-//  PageScrollUITestsLaunchTests.swift
-//  PageScrollUITests
+//  UIPageScrollUITestsLaunchTests.swift
+//  UIPageScrollUITests
 //
-//  Created by Hoàng Loan on 05/01/2023.
+//  Created by Hoàng Loan on 10/01/2023.
 //
 
 import XCTest
 
-final class PageScrollUITestsLaunchTests: XCTestCase {
+final class UIPageScrollUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

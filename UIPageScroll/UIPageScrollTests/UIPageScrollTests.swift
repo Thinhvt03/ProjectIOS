@@ -1,14 +1,14 @@
 //
-//  PageScrollTests.swift
-//  PageScrollTests
+//  UIPageScrollTests.swift
+//  UIPageScrollTests
 //
-//  Created by Hoàng Loan on 05/01/2023.
+//  Created by Hoàng Loan on 10/01/2023.
 //
 
 import XCTest
-@testable import PageScroll
+@testable import UIPageScroll
 
-final class PageScrollTests: XCTestCase {
+final class UIPageScrollTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
