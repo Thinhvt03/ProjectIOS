@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Slide" customModule="UIPageScroll" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="UIPageScroll" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -23,32 +23,22 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-Ck-sFJ">
-                    <rect key="frame" x="10" y="499" width="373" height="24"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="ASD-z6-xNK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2du-NQ-5aA"/>
-                <constraint firstItem="Ogm-Ck-sFJ" firstAttribute="top" secondItem="ASD-z6-xNK" secondAttribute="bottom" constant="20" id="D3V-Sy-q2w"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lDg-sh-Pb3" secondAttribute="trailing" constant="16" id="NPs-0v-MoV"/>
                 <constraint firstItem="ASD-z6-xNK" firstAttribute="top" secondItem="lDg-sh-Pb3" secondAttribute="bottom" constant="20" id="Rh3-P3-Hig"/>
                 <constraint firstItem="ASD-z6-xNK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="YRL-e9-FrS"/>
                 <constraint firstItem="lDg-sh-Pb3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="b9d-XR-xu7"/>
-                <constraint firstItem="Ogm-Ck-sFJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="fqW-pQ-yl8"/>
                 <constraint firstItem="lDg-sh-Pb3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="124" id="jq1-VM-mlf"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ogm-Ck-sFJ" secondAttribute="trailing" constant="10" id="nSu-TK-e6M"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ASD-z6-xNK" secondAttribute="trailing" constant="10" id="qlg-nR-1On"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lDg-sh-Pb3" secondAttribute="bottom" constant="406" id="sej-Fj-ubu"/>
             </constraints>
             <connections>
-                <outlet property="detailLable" destination="Ogm-Ck-sFJ" id="N3X-Wu-byn"/>
-                <outlet property="imageView" destination="lDg-sh-Pb3" id="oKz-45-Bnz"/>
-                <outlet property="titleLable" destination="ASD-z6-xNK" id="ekB-FZ-Vfk"/>
+                <outlet property="imageView" destination="lDg-sh-Pb3" id="iMB-ay-qsw"/>
+                <outlet property="titleLable" destination="ASD-z6-xNK" id="5ef-JX-S0S"/>
             </connections>
             <point key="canvasLocation" x="101.5267175572519" y="19.718309859154932"/>
         </view>
